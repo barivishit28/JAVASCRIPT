@@ -6,5 +6,5 @@ function wordCounter(sentence) {
     });
     return cleanedArr.length;
 }
-let res = wordCounter("I am a smart  and    intelligent  boy");
+let res = wordCounter("I am a smart  and very   intelligent  boy");
 console.log(res);
