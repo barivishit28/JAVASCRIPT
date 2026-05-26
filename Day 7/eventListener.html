@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <h1 id="hd">Count: 0</h1>
+        <button id="btn">Click to increase count</button>
+    </body>
+
+    <script>
+        let heading = document.querySelector("#hd");
+        let button = document.querySelector("#btn");
+
+        let count = 0;
+        button.addEventListener("click", () => {
+            count ++;
+            heading.innerHTML = "Count: " + count;
+        });
+    </script>
+</html>
